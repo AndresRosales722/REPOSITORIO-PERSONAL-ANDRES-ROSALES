@@ -39,8 +39,8 @@ app.get("/turing", (req, res)=>{
     res.sendFile(path.join(__dirname, "./views/turing.html"))
 })
 
-app.get("/berners-lee", (req, res)=>{
-    res.sendFile(path.join(__dirname, "./views/berners-lee.html"))
+app.get("/bernerslee", (req, res)=>{
+    res.sendFile(path.join(__dirname, "./views/bernerslee.html"))
 })
 
 
